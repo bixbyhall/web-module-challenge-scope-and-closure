@@ -163,7 +163,7 @@ function scoreboard(getBoth, getScore, innings) {
     "Away": 0,
     "Home": 0
   };
-  for (let i = 0; i <= innings; i++) {
+  for (let i = 1; i <= innings; i++) {
     
     let inningScore = getBoth(getScore)
     let awayScore = inningScore.Away;
